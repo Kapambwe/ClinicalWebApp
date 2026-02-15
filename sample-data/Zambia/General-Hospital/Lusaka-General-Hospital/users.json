@@ -1,0 +1,42 @@
+[
+  {
+    "username": "clinical.lgh",
+    "password": "Clinical123!",
+    "role": "Clinical Officer",
+    "fullName": "Dr. Mwansa Banda",
+    "email": "mwansa.banda@lgh.zm",
+    "phone": "+260-211-456-001",
+    "specialization": "Emergency Medicine",
+    "licenseNumber": "CLNZM2021-078"
+  },
+  {
+    "username": "radio.lgh",
+    "password": "Radio123!",
+    "role": "Radiologist",
+    "fullName": "Dr. Elizabeth Chanda",
+    "email": "elizabeth.chanda@lgh.zm",
+    "phone": "+260-211-456-002",
+    "specialization": "Interventional Radiology",
+    "licenseNumber": "RADZM2019-056"
+  },
+  {
+    "username": "imaging.lgh",
+    "password": "Imaging123!",
+    "role": "Imaging Specialist",
+    "fullName": "Robert Tembo",
+    "email": "robert.tembo@lgh.zm",
+    "phone": "+260-211-456-003",
+    "specialization": "MRI and CT Imaging",
+    "licenseNumber": "IMGZM2020-089"
+  },
+  {
+    "username": "lab.lgh",
+    "password": "Lab123!",
+    "role": "Laboratory Technician",
+    "fullName": "Catherine Musonda",
+    "email": "catherine.musonda@lgh.zm",
+    "phone": "+260-211-456-004",
+    "specialization": "Hematology",
+    "licenseNumber": "LABZM2018-123"
+  }
+]

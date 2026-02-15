@@ -1,0 +1,9 @@
+{
+  "name": "Kenyatta General Hospital",
+  "type": "General Hospital",
+  "country": "Kenya",
+  "address": "Hospital Road, Nairobi, Kenya",
+  "phone": "+254-20-789-000",
+  "capacity": 650,
+  "established": "1975"
+}

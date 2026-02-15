@@ -1,0 +1,42 @@
+[
+  {
+    "username": "clinical.zm",
+    "password": "Clinical123!",
+    "role": "Clinical Officer",
+    "fullName": "Dr. Joseph Mutale",
+    "email": "joseph.mutale@msmc.zm",
+    "phone": "+260-211-234-567",
+    "specialization": "General Medicine",
+    "licenseNumber": "CLNZM2019-001"
+  },
+  {
+    "username": "radio.zm",
+    "password": "Radio123!",
+    "role": "Radiologist",
+    "fullName": "Dr. Agnes Kaunda",
+    "email": "agnes.kaunda@msmc.zm",
+    "phone": "+260-211-234-568",
+    "specialization": "Diagnostic Radiology",
+    "licenseNumber": "RADZM2018-045"
+  },
+  {
+    "username": "lab.zm",
+    "password": "Lab123!",
+    "role": "Laboratory Technician",
+    "fullName": "Samuel Phiri",
+    "email": "samuel.phiri@msmc.zm",
+    "phone": "+260-211-234-569",
+    "specialization": "Clinical Laboratory Science",
+    "licenseNumber": "LABZM2020-112"
+  },
+  {
+    "username": "path.zm",
+    "password": "Path123!",
+    "role": "Pathologist",
+    "fullName": "Dr. Grace Mwamba",
+    "email": "grace.mwamba@msmc.zm",
+    "phone": "+260-211-234-570",
+    "specialization": "Anatomical Pathology",
+    "licenseNumber": "PATHZM2017-033"
+  }
+]
