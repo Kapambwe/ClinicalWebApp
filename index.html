@@ -5,17 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clinical.WebApp</title>
-    <base href="/" id="dynamic-base">
-    <script>
-        // Dynamically set base path for GitHub Pages deployment
-        (function () {
-            var base = document.getElementById('dynamic-base');
-            var path = window.location.pathname.includes('/ClinicalWebApp')
-                ? '/ClinicalWebApp/'
-                : '/';
-            base.setAttribute('href', path);
-        })();
-    </script>
+    <base href="/ClinicalWebApp/">
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="_content/Radzen.Blazor/css/material-base.css" />
     <link rel="stylesheet" href="css/app.css" />
@@ -69,7 +59,9 @@
             const params = new URLSearchParams(window.location.search);
             const path = params.get('path');
             if (path) {
-                window.history.replaceState(null, '', '/ClinicalWebApp' + decodeURIComponent(path));
+                // Ensure we don't double prepend the base path if 404.html already included it
+                const fullPath = path.startsWith('/ClinicalWebApp') ? path : '/ClinicalWebApp' + decodeURIComponent(path);
+                window.history.replaceState(null, '', fullPath);
             }
         })();
     </script>
