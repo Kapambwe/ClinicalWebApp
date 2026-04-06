@@ -1,0 +1,42 @@
+[
+  {
+    "username": "clinical.kgh",
+    "password": "Clinical123!",
+    "role": "Clinical Officer",
+    "fullName": "Dr. James Kariuki",
+    "email": "james.kariuki@kgh.ke",
+    "phone": "+254-20-789-001",
+    "specialization": "Internal Medicine",
+    "licenseNumber": "CLNKE2020-145"
+  },
+  {
+    "username": "radio.kgh",
+    "password": "Radio123!",
+    "role": "Radiologist",
+    "fullName": "Dr. Mary Wanjiru",
+    "email": "mary.wanjiru@kgh.ke",
+    "phone": "+254-20-789-002",
+    "specialization": "Diagnostic Imaging",
+    "licenseNumber": "RADKE2018-098"
+  },
+  {
+    "username": "path.kgh",
+    "password": "Path123!",
+    "role": "Pathologist",
+    "fullName": "Dr. David Otieno",
+    "email": "david.otieno@kgh.ke",
+    "phone": "+254-20-789-003",
+    "specialization": "Clinical Pathology",
+    "licenseNumber": "PATHKE2019-067"
+  },
+  {
+    "username": "imaging.kgh",
+    "password": "Imaging123!",
+    "role": "Imaging Specialist",
+    "fullName": "Sarah Njeri",
+    "email": "sarah.njeri@kgh.ke",
+    "phone": "+254-20-789-004",
+    "specialization": "Ultrasound and X-Ray",
+    "licenseNumber": "IMGKE2021-034"
+  }
+]

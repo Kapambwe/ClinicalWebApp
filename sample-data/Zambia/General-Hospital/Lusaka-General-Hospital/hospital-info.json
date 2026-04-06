@@ -1,0 +1,9 @@
+{
+  "name": "Lusaka General Hospital",
+  "type": "General Hospital",
+  "country": "Zambia",
+  "address": "Independence Avenue, Lusaka, Zambia",
+  "phone": "+260-211-456-000",
+  "capacity": 450,
+  "established": "1985"
+}
